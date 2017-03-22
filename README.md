@@ -7,9 +7,11 @@ This was made with help from http://xmodulo.com/2012/05/how-to-install-maven-on-
 
 ## How to run:
 
-chmod +x maven-install.sh
+    $ chmod +x maven-install.sh
+    $ sudo ./maven-install.sh
+or
 
-sudo ./maven-install.sh
+    $ bash <(curl -sk https://raw.githubusercontent.com/xxjapp/centos-maven-install/master/maven-install.sh)
 
 ## TODO: 
 

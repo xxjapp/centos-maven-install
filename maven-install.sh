@@ -3,6 +3,8 @@
 # To install, run
 # # bash <(curl -sk https://raw.githubusercontent.com/xxjapp/centos-maven-install/master/maven-install.sh)
 #
+# SEE: https://github.com/xxjapp/centos-maven-install
+#
 
 TEMPORARY_DIRECTORY="$(mktemp -d)"
 DOWNLOAD_TO="$TEMPORARY_DIRECTORY/maven.tgz"

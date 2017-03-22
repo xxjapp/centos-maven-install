@@ -1,12 +1,11 @@
 #! /bin/bash
 
-
 TEMPORARY_DIRECTORY="$(mktemp -d)"
 DOWNLOAD_TO="$TEMPORARY_DIRECTORY/maven.tgz"
 
 echo 'Downloading Maven to: ' "$DOWNLOAD_TO"
 
-wget -O "$DOWNLOAD_TO" http://www.eng.lsu.edu/mirrors/apache/maven/maven-3/3.1.1/binaries/apache-maven-3.1.1-bin.tar.gz
+wget -O "$DOWNLOAD_TO" http://ftp.kddilabs.jp/infosystems/apache/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz
 
 echo 'Extracting Maven'
 tar xzf $DOWNLOAD_TO -C $TEMPORARY_DIRECTORY
